@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+.allcontainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    background: rgb(73, 73, 73);
+    height: 80px;
+}
+.haj1{
+    font-weight: 500;
+    font-size: 25px;
+    cursor: pointer;
+    color:white;
+    font-family: sans-serif;
+}
+.button{
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+    background: blue;
+    color: white;
+    transition: all 0.5s;
+}
+.button:hover{
+    transform: scale(1.2);
+    background: rgb(2, 2, 212);
+}

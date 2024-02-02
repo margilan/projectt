@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+.allcontainer{
+    margin-right: auto;
+    margin-left: auto;
+    background: white;
+    width: 50%;
+    margin-top: 100px;
+    transition: all 1.0s;
+    border:1px solid lightgray;
+}
+.texts{
+    margin-top: 50px;
+}
+.textt{
+    background: lightgray;
+    text-align: center;
+} 
+ 
+.haj2{
+    font-weight: 600;
+    margin-left: 40px;
+    padding-top: 20px;
+}
+.input{
+    height: 50px;
+    margin-left: 60px;
+    margin-top: 20px;
+    outline: none;
+    border-radius:6px;
+    width: 70%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid lightgray;
+}
+.inputt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.buton{
+    cursor: pointer;
+    height: 47px;
+    border: none;
+    background: blue;
+    color: white;
+    transition: all 0.5s;
+    margin-top: 21px;
+    margin-left: -10px;
+    width: 25%;
+    padding: 8px;
+    font-size: 16px;
+}
+.buton:hover{
+    transform: scale(1.2);
+    background: rgb(2, 2, 212);
+}
+.oneinfo{
+    display: flex;
+    align-items:center;
+    gap: 100px;
+    margin-left: 60px;
+}
+.informationtext{
+    font-size: 15px;
+    font-family: sans-serif;
+        display: inline-block;
+    margin-right: 10px;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s ease;
+    
+}
+.oneinfo {
+    margin-bottom: 10px;
+  }
+  @media only screen and (max-width: 768px) {
+    .allcontainer {
+      width: 90%;
+    }}  
+  .informationtext:hover {
+    border-bottom: 2px solid #3498db;
+  } 
+.information{
+    display: flex;
+    align-items: center;
+    gap: 200px;
+    margin-top: 40px;
+    background: lightgray;
+    height: 60px;
+}
+.all{
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.Update{
+    width: 100px;
+    height: 40px;
+    border:none;
+    border-radius:5px;
+    cursor: pointer;
+    background: green;
+    color:white;
+    transition: all 0.5s;
+}
+.Update:hover{
+    transform: scale(1.2);
+    background: rgb(1, 112, 1);
+}
+.Delete{
+    width: 100px;
+    height: 40px;
+    border:none;
+    border-radius:5px;
+    cursor: pointer;
+    background: red;
+    color:white;
+    transition: all 0.5s;
+}
+.Delete:hover{
+    transform: scale(1.2);
+    background: rgb(184, 4, 4);
+}
